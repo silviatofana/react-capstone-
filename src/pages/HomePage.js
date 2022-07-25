@@ -1,46 +1,30 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
-import FetchStats from '../store/api';
-import { GetStats } from '../store/reducer';
+import { useSelector } from 'react-redux';
 
 const HomePage = () => {
-  const CountryStore = useSelector((store) => store.details);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    if (CountryStore.length === 0) {
-      FetchStats()
-        .then((response) => dispatch(GetStats(response)));
-    }
-  }, []);
-
-  const Africa = CountryStore.filter((item) => item.continent === 'Africa');
+  const ContinentStore = useSelector((store) => store.continent);
 
   return (
-    <div className="homePage">
-      <h1 className="continent">Africa</h1>
+    <div className="ContinentPage" id={ContinentStore}>
+      <h1 className="continent">World Wide</h1>
       <ul className="dataUL">
         {
-        Africa.map((country) => (
-          <Link key={country.country} to={{ pathname: `/country/${country.country}` }}>
-            <li className="countryDetails">
-              <div className="details">
-                <h1 className="countryName">
-                  {country.country}
+        ContinentStore.map((continent) => (
+          <Link key={continent.name} to={{ pathname: `/continent/${continent.name}` }}>
+            <li className="ContinentDetails">
+              <div className="titles">
+                <h1 className="continentName">
+                  {continent.name}
                 </h1>
-                <div>
-                  <h2 className="population">
-                    Population:
-                  </h2>
+                <h2 className="countryNumbers">
+                  {continent.number}
                   {' '}
-                  <p className="number">
-                    {country.population.toLocaleString()}
-                  </p>
-                </div>
+                  countries
+                </h2>
               </div>
-              <div>
-                <img src={country.country_flag} alt="flag" className="flag" />
+              <div className="map-div">
+                <img src={continent.map} alt="Continent map" className={`map ${continent.classname}`} />
               </div>
             </li>
           </Link>
