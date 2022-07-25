@@ -16,4 +16,4 @@ const StatsReducer = (state = intialState, action) => {
   }
 };
 
-export { GetStats, StatsReducer };
+export { GET_STATS, GetStats, StatsReducer };
