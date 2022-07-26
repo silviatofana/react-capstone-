@@ -16,7 +16,11 @@ This project is a mobile web application used to check a list of COVID-19 metric
   
 ## Setup
 - Get the link of the repository: [https://github.com/silviatofana/react-capstone-](https://github.com/silviatofana/react-capstone-)
+<<<<<<< HEAD
 - Clone it as [git@github.com:chaw-bot/react-capstone-project.git](git@github.com:silviatofana/react-capstone-.git) on a Terminal
+=======
+- Clone it as [git@github.com:silviatofana/react-capstone-.git](git@github.com:silviatofana/react-capstone-.git) on a Terminal
+>>>>>>> fb33228309d2fcbebdbf4d48e31f1d0335293400
 - Usage
 - Run npm install on a Terminal to install the modules
 - Run npm start on a Terminal to start the server
