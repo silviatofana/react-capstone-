@@ -15,8 +15,8 @@ This project is a mobile web application used to check a list of COVID-19 metric
 - CSS
   
 ## Setup
-- Get the link of the repository: [https://github.com/chaw-bot/react-capstone-project](https://github.com/chaw-bot/react-capstone-project)
-- Clone it as [git@github.com:chaw-bot/react-capstone-project.git](git@github.com:chaw-bot/react-capstone-project.git) on a Terminal
+- Get the link of the repository: [https://github.com/silviatofana/react-capstone-](https://github.com/silviatofana/react-capstone-)
+- Clone it as [git@github.com:chaw-bot/react-capstone-project.git](git@github.com:silviatofana/react-capstone-.git) on a Terminal
 - Usage
 - Run npm install on a Terminal to install the modules
 - Run npm start on a Terminal to start the server
@@ -31,7 +31,7 @@ This project is a mobile web application used to check a list of COVID-19 metric
 👤 **Silvia Tofana **
 
 - GitHub: [@silviatofana](https://github.com/silviatofana)
-- LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana-10b852186)
+- LinkedIn: [@silviatofana](www.linkedin.com/in/silvia-tofana)
 - Twitter: [@silviatofana](https://twitter.com/SilviaTofana)
 
 
