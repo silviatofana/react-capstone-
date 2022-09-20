@@ -21,9 +21,7 @@ This project is a mobile web application used to check a list of COVID-19 metric
 - Run npm install on a Terminal to install the modules
 - Run npm start on a Terminal to start the server
 
-## Links
-- Click [here](https://effulgent-pegasus-151d85.netlify.app/) to view it in the browser.
-- [Loom video]()
+
   
 ## Author
 
